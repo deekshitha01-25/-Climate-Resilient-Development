@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A sample site showcasing climate-resilient development using all HTML tags.">
+  <title>Climate-Resilient Development</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+      color: #333;
+    }
+    header, footer {
+      background: #00796b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+      background: #ffffffcc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    aside {
+      background: #c8e6c9;
+      padding: 10px;
+      border-left: 4px solid #388e3c;
+    }
+    table, th, td {
+      border: 1px solid #555;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    table caption {
+      caption-side: top;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    form {
+      background: #f1f8e9;
+      padding: 15px;
+      border-radius: 6px;
+    }
+    input[type="text"], input[type="email"], select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"], input[type="reset"] {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      background-color: #388e3c;
+      color: white;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover, input[type="reset"]:hover {
+      background-color: #2e7d32;
+    }
+    footer address {
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌿 Climate-Resilient Development</h1>
+    <nav>
+      <a href="#intro">Home</a>
+      <a href="#features">Features</a>
+      <a href="#form">Join Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <article>
+        <h2>Introduction</h2>
+        <p><strong>Climate-resilient development</strong> integrates climate change adaptation, mitigation, and sustainable development to reduce vulnerability and build adaptive capacity.</p>
+        <p>Here’s a <abbr title="Intergovernmental Panel on Climate Change">IPCC</abbr> quote:</p>
+        <blockquote cite="https://www.ipcc.ch">
+          “Transforming systems to be climate-resilient will help secure a sustainable future.”
+        </blockquote>
+        <figure>
+          <img src="forest.html" alt="Afforestation image" width="100%">
+          <figcaption>Fig 1. Reforestation: A climate adaptation strategy</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section id="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Inclusive urban planning</li>
+        <li>Sustainable agriculture</li>
+        <li>Disaster risk reduction</li>
+      </ul>
+      <ol>
+        <li>Assess vulnerabilities</li>
+        <li>Develop strategies</li>
+        <li>Implement solutions</li>
+      </ol>
+
+      <aside>
+        <h3>Did you know?</h3>
+        <p>Resilient development can reduce economic losses from climate disasters by up to 50%!</p>
+      </aside>
+
+      <details>
+        <summary>Read more about strategies</summary>
+        <p>Strategies include climate-smart agriculture, nature-based solutions, and renewable energy integration.</p>
+      </details>
+
+      <table>
+        <caption>Adaptation Strategies by Sector</caption>
+        <thead>
+          <tr>
+            <th>Sector</th>
+            <th>Strategy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Water</td>
+            <td>Rainwater harvesting</td>
+          </tr>
+          <tr>
+            <td>Energy</td>
+            <td>Solar microgrids</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <progress value="60" max="100">60%</progress>
+      <p>Progress toward 2030 resilience goals</p>
+    </section>
+
+    <section id="form">
+      <h2>Join the Movement</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+          <option value="Kenya">Kenya</option>
+        </select>
+
+        <label>Interested Areas:</label><br>
+        <input type="checkbox" name="interest" value="Energy"> Renewable Energy<br>
+        <input type="checkbox" name="interest" value="Water"> Water Conservation<br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br>
+
+        <label for="message">Why are you interested?</label>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </section>
+
+    <section>
+      <h2>Multimedia</h2>
+      <audio controls>
+        <source src="climate resilient audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <br><br>
+      <video controls width="400">
+        <source src="What is Climate Resilience_.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> Climate Action Network</p>
+    <address>
+      Contact us at <a href="mailto:info@climate.org">info@climate.org</a><br>
+      123 Green Road, Eco City, Earth
+    </address>
+  </footer>
+
+  <script>
+    console.log("Climate Resilient Development page loaded.");
+  </script>
+  <noscript>Please enable JavaScript for full functionality.</noscript>
+
+</body>
+</html>
